@@ -1,0 +1,12 @@
+Buka command lalu pindah ke drive D dan buat project dengan perintah:
+> D:
+> composer create-project --prefer-dist laravel/laravel app-tagihan-sekolah "6.*"
+> cd app-tagihan-sekolah
+> composer require --dev barryvdh/laravel-ide-helper 2.8
+> php artisan ide-helper:generate
+> composer require laravelcollective/html
+> composer require laravel/ui:^1.0 --dev
+> php artisan ui bootstrap --auth
+> npm install
+> npm run dev
+> composer require laracasts/flash
